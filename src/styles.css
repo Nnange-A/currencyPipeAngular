@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 body {
-  background-color: tan;
+  background: linear-gradient(-45deg, #0B486B, #d17f56);
   display: grid;
   place-content: center;
   height: 100%;
@@ -12,15 +12,16 @@ body {
 }
 
 .box {
-  background-color: lightblue;
+  background: linear-gradient(135deg, #d17f56, #0B486B);
   padding: 20px;
   text-align: center;
   min-height: 400px;
-  outline: 1px solid black;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: left;
   align-items: center;
+  border: none;
+  border-radius: 30px;
 }
 
 input {
@@ -32,8 +33,14 @@ input,
 select {
   /* height: 30px; */
   padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .horizontal {
   dispay: flex;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }

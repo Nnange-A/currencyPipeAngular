@@ -1,6 +1,7 @@
 <h1>Currency Converter</h1>
 <div class="box">
-    <input (input)="takeAmount($event)" type="text" value="{{ amount }}" />
+
+    <input (input)="takeAmount($event)" type="text" value="{{ amount }}" /> <br>
   <select (change)="setFromCurency($event)">
     <option
       *ngFor="let currency of currencies"
@@ -20,4 +21,5 @@
     </option>
   </select>
   <h3>{{ amount | currencyConverter: fromCurrency:toCurrency }}</h3>
+
 </div>
