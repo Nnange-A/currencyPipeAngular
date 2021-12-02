@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 body {
-  background: linear-gradient(-45deg, #0B486B, #d17f56);
+  background: linear-gradient(-45deg, #0B486B, rgba(0, 0, 0, 0.699));
   display: grid;
   place-content: center;
   height: 100%;
@@ -12,7 +12,7 @@ body {
 }
 
 .box {
-  background: linear-gradient(135deg, #d17f56, #0B486B);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.699), #0B486B);
   padding: 20px;
   text-align: center;
   min-height: 400px;
@@ -31,7 +31,6 @@ input {
 
 input,
 select {
-  /* height: 30px; */
   padding: 5px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -43,4 +42,5 @@ select {
 
 h1 {
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: antiquewhite;
 }
